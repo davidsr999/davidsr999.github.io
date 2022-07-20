@@ -1,2 +1,110 @@
-body{font-family: Arial}
-h1{color:burlywood}
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+h1 {
+    margin: 0px;
+    padding: 0px;
+}
+
+p {
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    padding: 50px  0px 200px 0px;
+    margin: 0px;
+    color: #fff;
+    background-color: #1abc9c;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/* header {
+    height: 800px;
+} */
+
+header .image {
+    width: 7cm;
+    margin: 0px;
+    padding: 0px 0px 30px 0px;
+}
+
+header p {
+    text-align: center;
+    font-size: 1.4em;
+}
+
+#rincon {
+    text-transform: uppercase;
+    font-size: 4em;
+    font-weight: 800;
+}
+
+
+main {
+    padding: 0px;
+    margin: 0px;
+}
+
+
+#presentacion {
+    background-color:cadetblue;
+    margin: 0px;
+    padding: 100px 30px 200px 30px;
+    /* background-color: #fff; */;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+#presentacion .carta {
+    margin: 0px 10px;
+    padding: 10px 0px;
+    background-color: gray;
+    border-radius: 6px;
+}
+
+#presentacion li {
+    margin-bottom: 1.2em;
+}
+
+#presentacion h1 {
+    text-align: left;
+}
+
+
+#proyectos {
+    height: 20cm;
+    margin: 0px;
+    padding: 0px;
+    background-color:bisque;
+}
+
+
+
+
+
+
+
+
+
+footer {
+    text-align: center;
+    background-color: rgba(28, 32, 36, 1);
+    margin: 0;
+    padding: 20px;
+    color: #fff;
+    bottom: 0;
+    width: 100%;
+}
+
