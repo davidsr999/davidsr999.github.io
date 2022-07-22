@@ -3,18 +3,21 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-    <meta name="author" content="David Sanz Ruiz" />
-    <title>El rincón de David</title>
-    <link rel="stylesheet" href="styles/styles.css"/>
+    <meta name="description" content="Hablo sobre informática, proyectos propios y trabajos realizados." />
+    <meta name="author" content="Jose Carlos Torró Belda" />
+    <title>Portfolio David</title>
+    <link rel="stylesheet" href="styles.css"/>
+    <script type="text/javascript" src="code.js" defer></script>
+    <!-- <script type="text/javascript" src="Calculadora.js"></script> -->
 </head>
 
 <body>
     <header>
         <img class="image" src="images/atom.png" alt="Logo de un átomo" /> <br/>
         <div class="text">
-            <p id="rincon">El rincón de David</p>
-            <p>Físico y
-            desarrollador Front-End en proceso</p>
+            <p id="rincon">Mis Proyectos</p>
+            <p>Físico Teórico y
+            Desarrollador Front-End</p>
         </div>
     </header>
 
@@ -22,7 +25,7 @@
     <main>
         <section id="presentacion">
             
-            <div class="carta">
+            <div class="carta fis">
                 <h1> Conocimientos en Física Teórica </h1>
 
                 <ul>
@@ -30,31 +33,51 @@
                     <li> Interacciones Fuertes </li>
                     <li> Relatividad General </li>
                     <li> Teoría Cuántica de Campos </li>
-                    <li> Especialidad: Radiación de Hawking y Evaporación de Agujeros Negros </li>
+                    <li> Especialidad: Cosmología y Teoría Cuántica de Campos </li>
                 </ul>
 
             </div>
 
-            <div class="carta">
+            <div class="carta inform">
                 <h1> Conocimientos en Informática </h1>
 
                 <ul>
-                    <li> Interacciones Electrodébiles </li>
-                    <li> Interacciones Fuertes </li>
-                    <li> Relatividad General </li>
-                    <li> Teoría Cuántica de Campos </li>
-                    <li> Especialidad: Radiación de Hawking y Evaporación de Agujeros Negros </li>
+                    <li> Python </li>
+                    <li> Matlab </li>
+                    <li> Html Css JavaScript </li>
                 </ul>
             </div>
 
         </section>
 
         <section id="proyectos">
-            <h1> Proyectos desarrollo Front-End </h1>
-            <p> En esta sección se exponen los proyectos con los que voy
-                aprendiendo JavaScript, Typescript, Dom, eventos, promesas...
-            </p>
+            <div id="container-calc">
+                <div id="calculadora">
+                    <div class="display">
+                        <div id="valor-anterior"></div>
+                        <div id="valor-actual"></div>
+                    </div>
 
+                    <button class="col-2" onclick="display.borrarTodo()"> C </button>
+                    <button onclick="display.borrar()"> &larr; </button>
+                    <button class="operator" value="dividir">%</button>
+                    <button class="number">7</button>
+                    <button class="number">8</button>
+                    <button class="number">9</button>
+                    <button class="operator" value="multiplicar">x</button>
+                    <button class="number">4</button>
+                    <button class="number">5</button>
+                    <button class="number">6</button>
+                    <button class="operator" value="restar">-</button>
+                    <button class="number">1</button>
+                    <button class="number">2</button>
+                    <button class="number">3</button>
+                    <button class="operator" value="sumar">+</button>
+                    <button class="col-2 number">0</button>
+                    <button class="number">.</button>
+                    <button class="operator" value="igual"> = </button>
+                </div>
+            </div>
         </div>
         </section>
     </main>
@@ -67,5 +90,3 @@
     
 </body>
 </html>
-
-

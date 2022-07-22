@@ -1,0 +1,245 @@
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+h1 {
+    margin: 0px;
+    padding: 0px;
+}
+
+p {
+    margin: 0px;
+    padding: 0px;
+}
+
+
+
+header {
+    padding: 50px  0px 200px 0px;
+    margin: 0px;
+    color: #fff;
+    background-color:darkslategrey;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/* header {
+    height: 800px;
+} */
+
+header .image {
+    width: 7cm;
+    margin: 0px;
+    padding: 0px 0px 30px 0px;
+}
+
+header p {
+    text-align: center;
+    font-size: 1.4em;
+}
+
+#rincon {
+    text-transform: uppercase;
+    font-size: 4em;
+    font-weight: 800;
+}
+
+
+main {
+    padding: 0px;
+    margin: 0px;
+}
+
+
+#presentacion {
+    background-color:rgba(28, 32, 36, 1);
+    margin: 0px;
+    /* padding: 100px 30px 200px 30px; */
+    height: 700px;
+    /* background-color: #fff; */;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+#presentacion .carta {
+    min-height: 400px;
+    width: 500px;
+    box-shadow: 0px 0px 0px 10px #00000033
+}
+
+#presentacion .fis {
+    margin: 0px 20px;
+    padding: 10px 0px;
+    /* background-color: gray; */
+    border-radius: 6px;
+    color: white;
+
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url("../images/fondo-fisica.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+
+
+#presentacion .inform {
+    margin: 0px 20px;
+    padding: 10px 0px;
+    /* background-color: gray; */
+    border-radius: 6px;
+    color: white;
+
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url("../images/fondo-inform.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+#presentacion ul {
+    list-style: none;
+    margin: 0px;
+    padding: 0px 20px;
+}
+
+
+#presentacion li {
+    margin-bottom: 1.2em;
+    font-size: 1.6em;
+    font-weight: 500;
+    text-align: center;
+}
+
+#presentacion h1 {
+    text-align: center;
+    font-size: 2em;
+    margin: 0px;
+    padding: 15px 20px;
+}
+
+
+#proyectos {
+    height: 20cm;
+    margin: 0px;
+    padding: 0px;
+    background-color:#fff;
+}
+
+
+
+
+
+#container-calc {
+    height: 100vh;
+    background-color: #224870;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#calculadora {
+    display: grid;
+    grid-template-columns: repeat(4, 75px);
+    grid-template-rows: 160px repeat(5, 75px);
+    background-color: #00916e;
+    padding: 15px;
+    border-radius: 32px;
+    box-shadow: 15px 10px 0px 5px #00000033;
+}
+
+button {
+    color: #fff;
+    cursor: pointer;
+    margin: 5px;
+    padding: 0px;
+    border-radius: 32px;
+    font-size: 1.5em;
+    border: none;
+    background-color: #00916e;
+    box-shadow: 5px 5px  10px -3px #00000040, -5px -5px 15px 3px #00ffc11f;
+}
+
+button:active {
+    background-color: #006f54;
+}
+
+button:focus {
+    outline: none;
+}
+
+
+.col-2 {
+    grid-column: span 2;
+}
+
+.display {
+    color: #fff;
+    grid-column: 1 / -1;
+    padding: 16px;
+    display: flex;
+    margin: 10px 10px 20px;
+    flex-direction: column;
+    align-items: flex-end;
+    background-color: #363636;
+    border-radius: 32px;
+    text-align: right;
+    justify-content: space-between;
+    word-break: break-all;
+    box-shadow: 0px 0px 0px 10px #00000033;
+}
+
+#valor-actual {
+    font-size: 1.5em;
+}
+
+#valor-anterior {
+    font-size: 2em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer {
+    text-align: center;
+    background-color: rgba(28, 32, 36, 1);
+    margin: 0;
+    padding: 20px;
+    color: #fff;
+    bottom: 0;
+    width: 100%;
+}
+
